@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DBLegends</title>
+        <link rel="stylesheet" href="chardetails.css">
+        <script src="chardetails.js"></script>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        
+        
+    </head>
+
+    <body>
+        <!--Google Translate feature: not working  -->
+        <!-- <div id="google_translate_element"></div>
+
+        <script type="text/javascript">
+        function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+        </script>
+
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+            
+        <div class="container-fluid">
+            <center><br/>
+                <h1>Goku's Zenkai Awakening is Coming!</h1><br/>
+                <!-- <img class="f2pgoku" src="https://i.imgur.com/rG2rfYh.png"><br/> -->
+                <video height="480" width="360" autoplay controls>
+                    <source src="f2pgoku.mp4">
+                </video><br/><br/>
+
+                <button type="button" class="shwdet" data-toggle="modal" data-target="#myModal">Show Details</button><br/>
+            </center>
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                      
+                        <!-- Header -->
+                        <div class="modal-header">
+                          <h4 class="modal-title">Goku</h4>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        
+                        <!-- body -->
+                        <div class="modal-body">
+
+                            <!-- Main ability -->
+                            <h4 class="detcolor">Main Ability</h4><br/>
+                          <p data-toggle="collapse" data-target="#mainability" class="detset">Last Hope</p><br/>
+                            <div id="mainability" class="collapse colldown" >
+                                <div>
+                                    +30% to damage inflicted for 20 timer counts.<br/>
+                                    Inflicts enemy with Attribute Downgrade "+40% to Blast Damage Received" for 25 timer counts.<br/><br/>
+                                    Requirements: 15 timer counts must elapse.
+                                </div>
+                            </div>
+
+                            <!-- Z ability -->
+                            <h4 class="detcolor">Z Ability</h4><br/>
+                          <p data-toggle="collapse" data-target="#zability" class="detset">Z Ability IV</p><br/>
+                            <div id="zability" class="collapse colldown" >
+                                <div>
+                                    +25% to "Tag: Saiyan" base Strike Defense during battle.
+                                </div>
+                            </div>
+
+                            <!-- Zenkai ability -->
+                            <h4 class="detcolor">Zenkai Ability</h4><br/>
+                          <p data-toggle="collapse" data-target="#zenkaiability" class="detset">Zenkai Ability IV</p><br/>
+                            <div id="zenkaiability" class="collapse colldown" >
+                                <div>
+                                    Increase the following stats of characters that are both "Element: BLU" and 
+                                    "Episode: Frieza Saga (Z)" during battle:<br/>
+
+                                    +20% to base Strike Attack.<br/>
+                                    +20% to base Blast Attack.<br/>
+                                    +25% to base Strike Defense.<br/>
+                                    +25% to base Blast Defense.
+                                </div>
+                            </div>
+
+                            <!-- Uniquee abilities -->
+                            <h4 class="detcolor">Unique Ability</h4><br/>
+                            <!-- Unique 1 -->
+                          <p data-toggle="collapse" data-target="#uniqueability1" class="detset">Team (2 Allies): Inflicted Damage UP</p><br/>
+                            <div id="uniqueability1" class="collapse colldown" >
+                                <div>
+                                    Applies the following effects to self while there are 3 battle members remaining:<br/><br/>
+                                    
+                                    +30% to damage inflicted.<br/>
+                                    Reduces damage received by 20%.
+                                </div>
+                            </div>
+                            <!-- Unique 2 -->
+                            <p data-toggle="collapse" data-target="#uniqueability2" class="detset">Seize the Initiative</p><br/>
+                            <div id="uniqueability2" class="collapse colldown" >
+                                <div>
+                                    Reduces damage received by 20% until combo ends when changing cover.<br/><br/>
+
+                                    Applies the following effects to self from battle start for 45 timer counts:<br/><br/>
+
+                                    +30% to damage inflicted.<br/>
+                                    Nullifies Attribute Downgrades and Abnormal Conditions.
+                                </div>
+                            </div>
+                            <!-- Unique 3 -->
+                            <p data-toggle="collapse" data-target="#uniqueability3" class="detset">T-That...That's impossible!!!</p><br/>
+                            <div id="uniqueability3" class="collapse colldown" >
+                                <div>
+                                    Applies the following effects to allies when this character is defeated:<br/><br/>
+
+                                    Restores health by 10%.<br/>
+                                    +20% to damage inflicted.
+                                </div>
+                            </div>
+                            <!-- Unique 4 -->
+                            <p data-toggle="collapse" data-target="#uniqueability4" class="detset">To the Bitter End</p><br/>
+                            <div id="uniqueability4" class="collapse colldown" >
+                                <div>
+                                    Applies the following effects to self when this character ends the battlefield: <br/><br/>
+
+                                    Restores Ki by 30.<br/>
+                                    +10% to damage inflicted (cannot be stacked).<br/>
+                                    Increases Arts Card Draw Speed by 1 level for 15 timer counts.
+                                </div>
+                            </div>
+
+
+                        </div>
+                        
+                        <!-- footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+            
+        </div>
+    </body>
+
+</html>
