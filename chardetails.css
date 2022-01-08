@@ -9,7 +9,7 @@
     /* border: 2px solid gold; */
 }
 .shwdet{
-    border-radius:5px;
+    border-radius:10px;
     background: linear-gradient(rgb(255, 255, 255), rgb(202, 202, 202));
     width: 18%;
     transition: 0.15s;
